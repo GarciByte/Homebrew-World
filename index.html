@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homebrew World</title>
+    <meta name="description" content="El homebrew en tu consola." />
+    <link rel=stylesheet href="index.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <a href="index.html" class="logo">
+                <img src="media/logo.png" alt="Logo de la página" class="logo-img">
+                <p class="logo-nombre">Homebrew World</p>
+            </a>
+            <nav>
+                <a href="#homebrew" class="nav-link">¿Qué es el Homebrew?</a>
+                <a href="#legal" class="nav-link">¿Es legal?</a>
+                <a href="#ventajas" class="nav-link">¿Qué ventajas me ofrece?</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="consolas">
+            <h1>Los mejores homebrews<br> para tu consola</h1>
+            <nav>
+                <button><a href="3DS.html" class="boton-link" target="_blank">Nintendo 3DS</a></button>
+                <button><a href="Switch.html" class="boton-link" target="_blank">Nintendo Switch</a></button>
+                <button><a href="Vita.html" class="boton-link" target="_blank">PlayStation Vita</a></button>
+                <button><a href="Play3.html" class="boton-link" target="_blank">PlayStation 3</a></button>
+            </nav>
+        </section>
+
+        <section id="homebrew">
+            <div class="contenedor">
+                <div class="img-contenedor"><img src="media/homebrew.png" alt="homebrew Launcher"></div>
+                <article class="texto">
+                    <h2>¿Qué es el<span class="color-homebrew"> Homebrew</span>?</h2>
+                    <p>Según <a href="https://es.wikipedia.org/wiki/Homebrew" class="wiki-link"
+                            target="_blank">Wikipedia</a>: "Se suele denominar homebrew (software casero no oficial) a
+                        las aplicaciones y
+                        juegos creados por
+                        programadores aficionados y expertos para cualquier plataforma, generalmente videoconsolas
+                        oficiales."</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="legal">
+            <div class="contenedor">
+                <h2>¿Es legal el homebrew?</h2>
+                <div class="img-contenedor"><img src="media/legalidad.jpg" class="img-legal" alt="Legalidad"></div>
+                <article class="texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis a autem sed
+                        dignissimos commodi, voluptas incidunt voluptatibus cum, quia neque nulla consequatur laborum
+                        accusamus, perspiciatis odio nemo minus vel!</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="ventajas">
+            <div class="contenedor">
+                <div class="lista-ventajas">
+                    <h2>Ventajas del homebrew</h2>
+                    <ul>
+                        <li>✔️ Ejecutar juegos caseros creados por la comunidad</li>
+                        <li>✔️ Realizar copias de seguridad de tus juegos físicos</li>
+                        <li>✔️ Ejecutar juegos más antiguos a través de emuladores</li>
+                        <li>✔️ Gestionar tus partidas guardadas de forma rápida y cómoda</li>
+                        <li>✔️ Acceso a funcionalidades extras que no te imaginas</li>
+                    </ul>
+                    <p>¡Y muchas más!</p>
+                </div>
+                <div class="img-contenedor"><img src="media/ventajas.png" alt="Ventajas del homebrew"></div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="contenedor">
+
+                <h2>Contacto</h2>
+
+                <div class="texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis a autem sed
+                        dignissimos commodi, voluptas incidunt voluptatibus cum, quia neque nulla consequatur laborum
+                        accusamus, perspiciatis odio nemo minus vel!</p>
+                </div>
+
+                <form action="contacto.php" method="post">
+                    <p>Nombre y Apellidos:</p>
+                    <input type="text" placeholder="Nombre y Apellidos" size="40" title="Nombre y Apellidos"
+                        name="nombre" required />
+                    <p>Correo electrónico:</p>
+                    <input type="email" placeholder="usuario@dominio.com" size="40"
+                        title="Escribe tu correo electrónico..." name="mail" required />
+                    <p>¿Con cuántas consolas necesitas ayuda?</p>
+                    <input type="number" min="1" max="100" step="1" value="1" title="Consolas" name="Consolas" />
+                    <p>¿Es la primera vez que se instala hombrew?</p>
+                    <input type="checkbox" name="Homebrew" value="Homebrew" />
+                    <p>No sé</p>
+                    <input type="radio" name="sexo" value="Mujer" checked /> Mujer
+                    <input type="radio" name="sexo" value="Hombre" /> Hombre y sus derivados
+                    <input type="radio" name="sexo" value="NS/NC" /> No estoy muy seguro/a
+                    <input type="submit" value="Enviar los datos" />
+                </form>>
+
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d631.749650243255!2d-4.554023316780004!3d36.740404742110144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f10963ce0f3d%3A0x310ae7d4bb2e8f7b!2sCPIFP%20Alan%20Turing!5e1!3m2!1ses!2ses!4v1701349269471!5m2!1ses!2ses"
+                        width="510" height="425" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"> </iframe>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <nav><a href="#consolas" class="nav-footer">Volver a arriba</a></nav>
+            <p>&copy; Homebrew World 2023</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,427 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto.ttf) format('truetype');
+    /* Especificar un tipo de letra personalizada */
+}
+
+* {
+    box-sizing: border-box;
+    /* Los elementos no crecen más de lo que queramos */
+}
+
+html {
+    scroll-behavior: auto;
+    /* Los enlaces de la misma página son más naturales */
+}
+
+body {
+    font-family: 'Roboto';
+    /* Aplicar el estilo de letra */
+    margin: 0;
+    /* Quitar margen */
+    background-color: rgb(220, 220, 220)
+        /* Color de fondo */
+}
+
+h1 {
+    font-size: 3.5em;
+    /* Tamaño del h1 */
+}
+
+h2 {
+    font-size: 2.7em;
+    /* Tamaño del h2 */
+}
+
+p {
+    font-size: 1.40em;
+    /* Tamaño de los párrafos */
+}
+
+ul {
+    list-style: none;
+    /* Quitar símbolo de las listas */
+}
+
+li {
+    font-size: 1.25em;
+    /* Tamaño de las listas */
+}
+
+a {
+    text-decoration: none;
+    /* Quitar subrayado de los enlaces */
+}
+
+.contenedor {
+    max-width: 1400px;
+    /* Ancho máximo de los contenedores */
+    margin: auto;
+    /* Margen automático */
+}
+
+header {
+    background-color: rgb(245, 245, 245);
+    /* Color de fondo */
+}
+
+header .contenedor {
+    display: flex;
+    /* Mostrar elementos en horizontal */
+    flex-direction: column;
+    /* Ordenar en columnas */
+    align-items: center;
+    /* Centrar elementos verticalmente */
+    min-height: 70px;
+    /* Altura del header */
+    justify-content: space-between;
+    /* El contenido estará en las esquinas */
+    padding: 10px;
+    /* Área de espacio */
+}
+
+header .logo {
+    display: flex;
+    /* Mostrar elementos en horizontal */
+    align-items: center;
+    /* Centrar elementos verticalmente */
+}
+
+header .logo-img {
+    height: 50px;
+    /* Altura de la imagen */
+    margin-right: 10px;
+    /* Margen de la imagen */
+}
+
+header .logo-nombre {
+    margin: 0;
+    /* Quitar margen */
+    padding: 25px 30px;
+    /* Área de espacio */
+    font-weight: bold;
+    /* Texto en negrita */
+    color: blue;
+    /* Color del texto */
+    font-size: 1.8em;
+    /* Tamaño de la fuente */
+}
+
+header nav {
+    display: flex;
+    /* Mostrar elementos en horizontal */
+    flex-direction: column;
+    /* Ordenar en columnas */
+    text-align: center;
+    /* Centrar el texto */
+    padding-bottom: 25px;
+    /* Área de espacio hacia abajo*/
+}
+
+header .nav-link {
+    padding: 5px 12px;
+    /* Área de espacio */
+    font-weight: bold;
+    /* Texto en negrita */
+    color: black;
+    /* Color del texto */
+    font-size: 1.3em;
+    /* Tamaño de la fuente */
+}
+
+header nav a:hover {
+    color: blue;
+    /* Color con el cursor encima */
+}
+
+#portada {
+    display: flex;
+    /* Mostrar elementos en horizontal */
+    align-items: center;
+    /* Centrar elementos verticalmente */
+    justify-content: center;
+    /* El contenido estará centrado */
+    text-align: center;
+    /* Centrar el texto */
+    height: 110vh;
+    /* Altura relativa */
+    background-image: linear-Gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("media/3DS.jpg");
+    /* Imagen de fondo, con un gradiente negro */
+    background-repeat: no-repeat;
+    /* La imagen de fondo no se repite */
+    background-size: cover;
+    /* La imagen ocupa todo el fondo */
+    background-position: center center;
+    /* La imagen estará centrada */
+}
+
+#portada h1 {
+    color: cyan;
+    /* Color del texto */
+    font-weight: bold;
+}
+
+#obtener .contenedor {
+    text-align: center;
+    /* Centrar el texto */
+    padding: 200px 12px;
+    /* Área de espacio */
+}
+
+#obtener h2 {
+    padding-bottom: 50px;
+}
+
+.vid-contenedor {
+    display: none;
+    /* Oculta las imágenes */
+}
+
+#instalar {
+    background-color: rgb(30, 30, 30);
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+}
+
+#instalar .contenedor {
+    padding: 150px 0px;
+    /* Área de espacio */
+}
+
+.img-contenedor,
+.img-contenedor1,
+.img-contenedor2 {
+    display: none;
+    /* Oculta las imágenes */
+}
+
+#instalar h2 {
+    margin-top: 0;
+    /* Quitar margen de arriba*/
+    font-size: 2.9em;
+    /* Tamaño de la fuente */
+}
+
+#instalar .texto {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    /* Centrar el texto */
+}
+
+#instalar .columnas {
+    margin: 15px 35px;
+    column-count: 2;
+    column-gap: 80px;
+}
+
+.app-link {
+    color: red;
+}
+
+#usuario a:hover {
+    color: blue;
+    /* Color con el cursor encima */
+}
+
+#usuario {
+    background-color: rgb(30, 30, 30);
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+}
+
+#sistema .contenedor,
+#usuario .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 12px;
+}
+
+#sistema h2,
+#usuario h2 {
+    font-size: 2.8em;
+    /* Tamaño de la fuente */
+    text-align: center;
+    padding-bottom: 50px;
+    ;
+}
+
+#sistema li,
+#usuario li {
+    margin: 35px 0px;
+    /* Margen de las listas*/
+    font-weight: bold;
+    /* Texto en negrita */
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+    /* Color de fondo */
+}
+
+footer p {
+    margin: 0;
+    /* Quitar margen */
+    padding: 12px;
+    /* Área de espacio */
+    color: rgb(100, 100, 100);
+    /* Color del texto */
+}
+
+footer .nav-footer {
+    padding: 12px;
+    font-weight: bold;
+    color: black;
+    font-size: 1.3em;
+}
+
+footer .contenedor {
+    height: 110px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer nav a:hover {
+    color: blue;
+    /* Color con el cursor encima */
+}
+
+@media (min-width: 720px) {
+
+    /* Estilos que se aplicarán solo a pantallas mayores de 720px */
+    header {
+        position: fixed;
+        /* Header fijo en la página */
+        width: 100%;
+        /* Ancho del header */
+    }
+
+    header .contenedor {
+        flex-direction: row;
+        /* Ordenar elementos a la derecha */
+
+    }
+
+    header nav {
+        flex-direction: row;
+        /* Ordenar elementos a la derecha */
+        justify-content: space-between;
+        /* El contenido estará en las esquinas */
+        padding-bottom: 0;
+        /* Quitar espacio de abajo */
+        padding-right: 20px;
+        /* Área de espacio */
+    }
+
+    #portada h1 {
+        font-size: 5em;
+    }
+
+    #obtener .contenedor {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 250px 12px;
+    }
+
+    #obtener .vid-contenedor {
+        display: block;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    #obtener h2 {
+        padding-bottom: 5px;
+    }
+
+    #obtener .texto {
+        width: 50%;
+        max-width: 650px;
+        text-align: initial;
+        padding-left: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    #instalar .contenedor {
+        padding: 100px 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #instalar .img-contenedor {
+        display: block;
+        padding: 40px;
+        margin: 50px;
+    }
+
+    #instalar h2 {
+        padding: 40px;
+        margin-bottom: 50px;
+    }
+
+    #instalar .img-ins {
+        border-width: 3px;
+        border-color: sienna;
+        border-style: solid;
+        height: 500px;
+    }
+
+    #instalar .texto {
+        width: 75%;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+
+    #instalar .columnas {
+        column-count: 2;
+        column-gap: 400px;
+    }
+
+    #sistema .contenedor,
+    #usuario .contenedor {
+        display: flex;
+    }
+
+    #sistema .img-contenedor,
+    #usuario .img-contenedor1,
+    #usuario .img-contenedor2 {
+        display: block;
+        padding: 25px;
+    }
+
+    #sistema .lista-app,
+    #usuario .lista-app {
+        align-items: center;
+        margin-bottom: 20px;
+        padding-bottom: 50px;
+    }
+
+    #sistema h2,
+    #usuario h2 {
+        text-align: center;
+    }
+
+    #sistema img,
+    #usuario img {
+        padding: 15px;
+    }
+
+    footer .contenedor {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+    }
+}
