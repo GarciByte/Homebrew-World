@@ -283,11 +283,30 @@ footer p {
     /* Color del texto */
 }
 
-footer .nav-footer {
-    padding: 12px;
+button {
+    margin: 15px;
+    /* Margen de los botones */
+    font-size: 1.4em;
+    /* Tamaño de la fuente de los botones */
     font-weight: bold;
-    color: black;
-    font-size: 1.3em;
+    /* Texto en negrita */
+    padding: 10px 30px;
+    /* Área de espacio  */
+    border-radius: 10px;
+    /* Bordes circulares  */
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    /* Estilo del borde  */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    /* Sombra del botón  */
+    color: white;
+    /* Color de la fuente  */
+    background-color: rgb(210, 105, 30)
+        /* Color de fondo */
+}
+
+button:hover {
+    background-color: rgb(214, 16, 16);
+    /* Color de fondo con cursor */
 }
 
 footer .contenedor {
@@ -300,9 +319,9 @@ footer .contenedor {
     flex-direction: column;
 }
 
-footer nav a:hover {
-    color: blue;
-    /* Color con el cursor encima */
+footer .arriba {
+    padding-top: 25px;
+    
 }
 
 @media (min-width: 720px) {
@@ -436,5 +455,10 @@ footer nav a:hover {
         flex-direction: row;
         justify-content: space-between;
         align-items: end;
+    }
+
+    footer .arriba {
+        padding-bottom: 17px;
+        
     }
 }
