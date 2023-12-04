@@ -189,6 +189,9 @@ header nav a:hover {
 #instalar .contenedor {
     padding: 150px 0px;
     /* Área de espacio */
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 .img-contenedor,
@@ -213,9 +216,8 @@ header nav a:hover {
 }
 
 #instalar .columnas {
-    margin: 15px 35px;
-    column-count: 2;
-    column-gap: 80px;
+    margin: 15px 25px;
+    column-count: 1;
 }
 
 .app-link {

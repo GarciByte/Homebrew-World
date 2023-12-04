@@ -309,6 +309,7 @@ header nav a:hover {
     /* Color del texto */
     height: 200vh;
     /* Altura de la sección */
+    flex-wrap: wrap;
 }
 
 #contacto h2 {
