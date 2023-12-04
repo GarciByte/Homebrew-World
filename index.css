@@ -262,16 +262,20 @@ header nav a:hover {
 
 #ventajas .contenedor {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-flow: column wrap;
     align-items: center;
     padding: 150px 12px;
-    
+}
+
+#ventajas .lista-ventajas {
+    align-items: center;
+    justify-content:center;
 }
 
 #ventajas h2 {
     font-size: 2.8em;
     /* Tamaño de la fuente */
+    text-align: center;
 }
 
 #ventajas li {
@@ -295,8 +299,6 @@ header nav a:hover {
 #contacto {
     display: flex;
     /* Mostrar elementos en horizontal */
-    flex-direction: column;
-    /* Ordenar en columnas */
     justify-content: center;
     /* El contenido estará centrado */
     align-items: center;
@@ -309,7 +311,7 @@ header nav a:hover {
     /* Color del texto */
     height: 200vh;
     /* Altura de la sección */
-    flex-wrap: wrap;
+    flex-flow: column wrap;
 }
 
 #contacto h2 {
