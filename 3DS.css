@@ -219,11 +219,20 @@ header nav a:hover {
 }
 
 .app-link {
-    color: red;
+    color: orange;
+}
+
+.app-link-sys {
+    color: brown;
+}
+
+#sistema a:hover {
+    color: blue;
+    /* Color con el cursor encima */
 }
 
 #usuario a:hover {
-    color: blue;
+    color: red;
     /* Color con el cursor encima */
 }
 
@@ -414,7 +423,11 @@ footer nav a:hover {
         text-align: center;
     }
 
-    #sistema img,
+    #sistema img {
+        padding: 25px;
+    }
+
+
     #usuario img {
         padding: 15px;
     }
