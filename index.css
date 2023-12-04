@@ -319,6 +319,11 @@ header nav a:hover {
     /* Tamaño de la fuente */
 }
 
+#contacto .mapa {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
 footer {
     background-color: rgb(230, 230, 230);
     /* Color de fondo */
