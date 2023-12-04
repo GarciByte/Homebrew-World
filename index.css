@@ -330,11 +330,11 @@ footer p {
     /* Color del texto */
 }
 
-footer .nav-footer {
-    padding: 12px;
-    font-weight: bold;
-    color: black;
-    font-size: 1.3em;
+footer button {
+    margin: 15px;
+    /* Margen de los botones */
+    font-size: 1.4em;
+    /* Tamaño de la fuente de los botones */
 }
 
 footer .contenedor {
@@ -347,9 +347,9 @@ footer .contenedor {
     flex-direction: column;
 }
 
-footer nav a:hover {
-    color: blue;
-    /* Color con el cursor encima */
+footer .arriba {
+    padding-top: 25px;
+    
 }
 
 @media (min-width: 720px) {
@@ -462,5 +462,9 @@ footer nav a:hover {
         flex-direction: row;
         justify-content: space-between;
         align-items: end;
+    }
+
+    footer .arriba {
+        padding-bottom: 17px;
     }
 }
