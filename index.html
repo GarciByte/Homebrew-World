@@ -56,9 +56,15 @@
                 <h2>¿Es legal el homebrew?</h2>
                 <div class="img-contenedor"><img src="media/legalidad.jpg" class="img-legal" alt="Legalidad"></div>
                 <article class="texto">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis a autem sed
-                        dignissimos commodi, voluptas incidunt voluptatibus cum, quia neque nulla consequatur laborum
-                        accusamus, perspiciatis odio nemo minus vel!</p>
+                    <p>Desde el punto de vista del fabricante de la consola, sí, sería "ilegal" (se tiene en cuenta que
+                        una empresa no es un ente jurisdiccional); pero desde el punto de vista del desarrollador libre
+                        y del usuario, no lo es.</p>
+                    <p>Esto depende de las leyes que se hayan establecido en la nación, región o comunidad al respecto;
+                        es decir, se dictaminaría como legal o ilegal si está tipificado dentro de un marco jurídico. De
+                        momento no existe ninguna ley específica en la Unión Europea que lo condene.</p>
+                    <p>Para más información, puedes ver una noticia que habla de esto <a
+                            href="https://as.com/meristation/2014/01/24/noticias/1390552440_127231.html"
+                            class="legal-link" target="_blank">Aquí</a></p>
                 </article>
             </div>
         </section>
@@ -71,8 +77,8 @@
                         <li>✔️ Ejecutar juegos caseros creados por la comunidad</li>
                         <li>✔️ Realizar copias de seguridad de tus juegos físicos</li>
                         <li>✔️ Ejecutar juegos más antiguos a través de emuladores</li>
-                        <li>✔️ Gestionar tus partidas guardadas de forma rápida y cómoda</li>
-                        <li>✔️ Acceso a funcionalidades extras que no te imaginas</li>
+                        <li>✔️ Gestionar partidas guardadas fácilmente</li>
+                        <li>✔️ Acceso a funcionalidades extras que ni te imaginas</li>
                     </ul>
                     <p>¡Y muchas más!</p>
                 </div>
@@ -83,33 +89,45 @@
         <section id="contacto">
             <div class="contenedor">
 
-                <h2>Contacto</h2>
-
                 <div class="texto">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis a autem sed
-                        dignissimos commodi, voluptas incidunt voluptatibus cum, quia neque nulla consequatur laborum
-                        accusamus, perspiciatis odio nemo minus vel!</p>
+                    <h2>Contacto</h2>
+                    <p>Si necesita ayuda para cualquier consulta o duda sobre el tema, no dudes en contactarme.</p>
                 </div>
 
-                <form action="contacto.php" method="post">
-                    <p>Nombre y Apellidos:</p>
-                    <input type="text" placeholder="Nombre y Apellidos" size="40" title="Nombre y Apellidos"
-                        name="nombre" required />
-                    <p>Correo electrónico:</p>
-                    <input type="email" placeholder="usuario@dominio.com" size="40"
-                        title="Escribe tu correo electrónico..." name="mail" required />
-                    <p>¿Con cuántas consolas necesitas ayuda?</p>
-                    <input type="number" min="1" max="100" step="1" value="1" title="Consolas" name="Consolas" />
-                    <p>¿Es la primera vez que se instala hombrew?</p>
-                    <input type="checkbox" name="Homebrew" value="Homebrew" />
-                    <p>No sé</p>
-                    <input type="radio" name="sexo" value="Mujer" checked /> Mujer
-                    <input type="radio" name="sexo" value="Hombre" /> Hombre y sus derivados
-                    <input type="radio" name="sexo" value="NS/NC" /> No estoy muy seguro/a
-                    <input type="submit" value="Enviar los datos" />
-                </form>>
+                <div class="formulario">
+                    <form action="contacto.php" method="post">
+
+                        <p>Nombre y Apellidos:</p>
+                        <input type="text" id=nombre class="texto-form" placeholder="Nombre y Apellidos"
+                            title="Nombre y Apellidos" name="nombre" required /> <br>
+
+                        <p>Correo electrónico:</p>
+                        <input type="email" class="texto-form" placeholder="usuario@dominio.com"
+                            title="Escribe tu correo electrónico..." name="mail" required /> <br>
+
+                        <p>¿Con cuántas consolas necesitas ayuda?</p>
+                        <input type="number" min="1" max="100" step="1" value="1" title="Consolas" name="Consolas" />
+                        <br>
+
+                        <p>¿Necesita la ayuda en remoto?</p>
+                        <input type="checkbox" name="Homebrew" value="Homebrew" /> <br>
+
+                        <p>¿Tienes experiencia en programación?</p>
+                        <input type="radio" name="experiencia" value="Experto" checked /> Experto
+                        <input type="radio" name="experiencia" value="Me defiendo" /> Me defiendo
+                        <input type="radio" name="experiencia" value="NS/NC" /> No tengo mucha idea <br>
+
+                        <p>Comentarios adicionales sobre tu consulta:</p>
+                        <textarea name="mensaje" class="texto-form" id="textform" cols="25"
+                            rows="10"></textarea> <br>
+
+                        <input type="submit" class="enviar-datos" value="Enviar" />
+
+                    </form>
+                </div>
 
                 <div class="mapa">
+                    <p>Para consultas en físico puedes encontarme aquí:</p>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d631.749650243255!2d-4.554023316780004!3d36.740404742110144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f10963ce0f3d%3A0x310ae7d4bb2e8f7b!2sCPIFP%20Alan%20Turing!5e1!3m2!1ses!2ses!4v1701349269471!5m2!1ses!2ses"
                         width="370" height="285" style="border:0;" allowfullscreen="" loading="lazy"

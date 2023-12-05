@@ -24,17 +24,17 @@ body {
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 2.7em;
     /* Tamaño del h1 */
 }
 
 h2 {
-    font-size: 2.7em;
+    font-size: 2.4em;
     /* Tamaño del h2 */
 }
 
 p {
-    font-size: 1.40em;
+    font-size: 1.30em;
     /* Tamaño de los párrafos */
 }
 
@@ -44,7 +44,7 @@ ul {
 }
 
 li {
-    font-size: 1.25em;
+    font-size: 1.18em;
     /* Tamaño de las listas */
 }
 
@@ -156,7 +156,7 @@ header .nav-link {
     /* Texto en negrita */
     color: black;
     /* Color del texto */
-    font-size: 1.3em;
+    font-size: 1.1em;
     /* Tamaño de la fuente */
 }
 
@@ -193,6 +193,7 @@ header nav a:hover {
 #consolas h1 {
     color: white;
     /* Color del texto */
+    padding: 10px;
 }
 
 #consolas .boton-link {
@@ -255,8 +256,20 @@ header nav a:hover {
 #legal h2 {
     margin-top: 0;
     /* Quitar margen de arriba */
-    font-size: 2.9em;
-    /* Tamaño de la fuente */
+}
+
+#legal .texto {
+    margin: 20px;
+}
+
+#legal .legal-link {
+    color: royalblue;
+    /* Color del texto */
+}
+
+#legal a:hover {
+    color: tomato;
+    /* Color con el cursor encima */
 }
 
 #ventajas .contenedor {
@@ -273,8 +286,6 @@ header nav a:hover {
 }
 
 #ventajas h2 {
-    font-size: 2.8em;
-    /* Tamaño de la fuente */
     text-align: center;
 }
 
@@ -288,7 +299,7 @@ header nav a:hover {
 
 #ventajas p {
     text-align: center;
-    color: blueviolet;
+    color: blue;
     /* Texto en negrita */
     font-weight: bold;
     /* Texto en negrita */
@@ -297,32 +308,32 @@ header nav a:hover {
 }
 
 #contacto {
-    display: flex;
-    /* Mostrar elementos en horizontal */
-    justify-content: center;
-    /* El contenido estará centrado */
-    align-items: center;
-    /* Centrar elementos verticalmente */
-    text-align: center;
-    /* Centrar el texto */
     background-color: rgb(30, 30, 30);
-    /* Color de fondo */
     color: white;
-    /* Color del texto */
-    height: 200vh;
-    /* Altura de la sección */
-    flex-flow: column wrap;
 }
 
-#contacto h2 {
-    font-size: 3em;
-    /* Tamaño de la fuente */
+#contacto .contenedor {
+    text-align: center;
+    padding: 50px;
 }
 
-#contacto .mapa {
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+
+
+#contacto p {
+    margin: 0;
 }
+
+#contacto .formulario {
+    margin: 0 auto;
+}
+
+#contacto input, textarea {
+    outline: none;
+    /* Quitar el marcado */
+}
+
+
+
 
 footer {
     background-color: rgb(230, 230, 230);
@@ -392,13 +403,13 @@ footer .arriba {
     }
 
     #consolas h1 {
-        font-size: 5em;
+        font-size: 4em;
     }
 
     #homebrew .contenedor {
         display: flex;
         justify-content: space-evenly;
-        padding: 250px 12px;
+        padding: 230px 12px;
     }
 
     #homebrew .img-contenedor {
@@ -426,40 +437,36 @@ footer .arriba {
         display: block;
         background-size: cover;
         background-position: center center;
-        padding: 40px;
-        margin: 50px;
+        padding: 20px;
     }
 
     #legal h2 {
-        padding: 40px;
-        margin-bottom: 50px;
+        padding: 30px;
     }
 
     #legal .img-legal {
         border-width: 3px;
         border-color: sienna;
         border-style: solid;
-
     }
 
     #legal .texto {
-        width: 75%;
+        width: 80%;
         margin: 0 auto;
-        padding: 50px 0;
+        padding: 37px 0;
     }
 
     #ventajas .contenedor {
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-flow: row;
     }
 
     #ventajas .img-contenedor {
         display: block;
+
     }
 
     #ventajas .lista-ventajas {
         align-items: center;
-
     }
 
     #ventajas h2 {

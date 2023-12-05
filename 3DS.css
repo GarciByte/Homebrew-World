@@ -24,17 +24,17 @@ body {
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 2.7em;
     /* Tamaño del h1 */
 }
 
 h2 {
-    font-size: 2.7em;
+    font-size: 2.4em;
     /* Tamaño del h2 */
 }
 
 p {
-    font-size: 1.40em;
+    font-size: 1.30em;
     /* Tamaño de los párrafos */
 }
 
@@ -44,7 +44,7 @@ ul {
 }
 
 li {
-    font-size: 1.25em;
+    font-size: 1.18em;
     /* Tamaño de las listas */
 }
 
@@ -125,7 +125,7 @@ header .nav-link {
     /* Texto en negrita */
     color: black;
     /* Color del texto */
-    font-size: 1.3em;
+    font-size: 1.1em;
     /* Tamaño de la fuente */
 }
 
@@ -204,8 +204,6 @@ header nav a:hover {
 #instalar h2 {
     margin-top: 0;
     /* Quitar margen de arriba*/
-    font-size: 2.9em;
-    /* Tamaño de la fuente */
 }
 
 #instalar .texto {
@@ -256,11 +254,8 @@ header nav a:hover {
 
 #sistema h2,
 #usuario h2 {
-    font-size: 2.8em;
-    /* Tamaño de la fuente */
     text-align: center;
     padding-bottom: 50px;
-    ;
 }
 
 #sistema li,
@@ -349,12 +344,12 @@ footer .arriba {
         /* El contenido estará en las esquinas */
         padding-bottom: 0;
         /* Quitar espacio de abajo */
-        padding-right: 20px;
+        padding-left: 30px;
         /* Área de espacio */
     }
 
     #portada h1 {
-        font-size: 5em;
+        font-size: 4em;
     }
 
     #obtener .contenedor {
