@@ -329,19 +329,19 @@ header nav a:hover {
     /* Ordenar en columnas */
     text-align: center;
     /* Centrar el texto */
-    padding: 100px;
+    padding: 100px 30px;
     /* Área de espacio */
 }
 
 #contacto .texto {
-    padding: 35px;
+    padding: 30px;
     /* Área de espacio */
 }
 
 form {
     margin: 0 auto;
     /* Margen del formulario */
-    padding: 20px;
+    padding: 10px;
     /* Área de espacio */
     border: 1px solid #ccc;
     /* Estilo del borde */
@@ -618,6 +618,17 @@ footer .arriba {
     #contacto .contenedor {
         max-width: 600px;
         /* Ancho máximo del contenedor */
+        padding: 100px 125px;
+        /* Área de espacio */
+    }
+
+    #contacto form {
+        display: flex;
+        /* Mostrar elementos en horizontal */
+        flex-direction: column;
+        /* Ordenar en columnas */
+        align-items: center;
+        /* Centrar elementos verticalmente */
     }
 
     footer .contenedor {
