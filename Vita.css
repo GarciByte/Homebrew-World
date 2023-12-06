@@ -167,18 +167,31 @@ header nav a:hover {
 #obtener .contenedor {
     text-align: center;
     /* Centrar el texto */
-    padding: 200px 12px;
+    padding: 150px 15px;
     /* Área de espacio */
+    display: flex;
+    /* Mostrar elementos en horizontal */
+    flex-direction: column;
+    /* Ordenar en columnas */
+    align-items: center;
+    /* Centrar elementos verticalmente */
 }
 
 #obtener h2 {
-    padding-bottom: 50px;
+    padding-bottom: 35px;
     /* Área de espacio hacia abajo*/
 }
 
-.vid-contenedor {
-    display: none;
-    /* Oculta las imágenes */
+#obtener .lista-ordenada h3 {
+    font-size: 1.6em;
+    /* Tamaño de la fuente */
+}
+
+#obtener .lista-ordenada {
+    text-align: initial;
+    /* Alinear texto al principio */
+    padding: 30px;
+    /* Área de espacio */
 }
 
 #instalar {
@@ -376,21 +389,8 @@ footer .arriba {
     }
 
     #obtener .contenedor {
-        display: flex;
-        /* Mostrar elementos en horizontal */
-        justify-content: space-evenly;
-        /* El contenido horizontalmente estará separado por espacios iguales */
-        padding: 250px 12px;
+        padding: 135px 15px;
         /* Área de espacio */
-    }
-
-    #obtener .vid-contenedor {
-        display: block;
-        /* Mostrar vídeo */
-        background-size: cover;
-        /* El vídeo ocupa todo el contenedor */
-        background-position: center center;
-        /* El vídeo estará centrado */
     }
 
     #obtener h2 {
@@ -399,22 +399,13 @@ footer .arriba {
     }
 
     #obtener .texto {
-        width: 50%;
+        width: 75%;
         /* Ancho del texto */
-        max-width: 650px;
-        /* Ancho máximo del texto */
-        text-align: initial;
+        text-align: center;
         /* El texto estará al principio */
-        padding-left: 150px;
-        /* Área de espacio hacia la izquierda */
-        display: flex;
-        /* Mostrar elementos en horizontal */
-        flex-direction: column;
-        /* Ordenar en columnas */
-        justify-content: center;
-        /* Centrar el contenido horizontalmente */
+        padding: 50px;
+        /* Área de espacio */
     }
-
 
     #instalar .contenedor {
         padding: 100px 12px;
@@ -444,12 +435,6 @@ footer .arriba {
     }
 
     #instalar .img-ins {
-        border-width: 3px;
-        /* Ancho del borde */
-        border-color: sienna;
-        /* Color del borde */
-        border-style: solid;
-        /* Estilo del borde */
         height: 500px;
         /* Altura de la imagen */
     }

@@ -171,6 +171,13 @@ header nav a:hover {
     /* Área de espacio */
 }
 
+#obtener .texto {
+    justify-content: center;
+    align-content: center;
+    align-content:center;
+    /* Centrar el texto *//
+}
+
 #obtener h2 {
     padding-bottom: 50px;
     /* Área de espacio hacia abajo*/
@@ -178,7 +185,7 @@ header nav a:hover {
 
 .vid-contenedor {
     display: none;
-    /* Oculta las imágenes */
+    /* Oculta el vídeo */
 }
 
 #instalar {
@@ -444,12 +451,6 @@ footer .arriba {
     }
 
     #instalar .img-ins {
-        border-width: 3px;
-        /* Ancho del borde */
-        border-color: sienna;
-        /* Color del borde */
-        border-style: solid;
-        /* Estilo del borde */
         height: 500px;
         /* Altura de la imagen */
     }
