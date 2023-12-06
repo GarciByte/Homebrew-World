@@ -347,7 +347,12 @@ form {
     /* Estilo del borde */
     border-radius: 5px;
     /* Bordes circulares */
-    overflow: hidden;
+    display: flex;
+    /* Mostrar elementos en horizontal */
+    flex-direction: column;
+    /* Ordenar en columnas */
+    align-items: center;
+    /* Centrar elementos verticalmente */
 }
 
 label {
@@ -620,15 +625,6 @@ footer .arriba {
         /* Ancho máximo del contenedor */
         padding: 100px 125px;
         /* Área de espacio */
-    }
-
-    #contacto form {
-        display: flex;
-        /* Mostrar elementos en horizontal */
-        flex-direction: column;
-        /* Ordenar en columnas */
-        align-items: center;
-        /* Centrar elementos verticalmente */
     }
 
     footer .contenedor {
