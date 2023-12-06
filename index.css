@@ -347,8 +347,9 @@ form {
     /* Estilo del borde */
     border-radius: 5px;
     /* Bordes circulares */
+    overflow: hidden;
 }
-  
+
 label {
     margin-bottom: 15px;
     /* Área de margen hacia abajo */
@@ -357,7 +358,7 @@ label {
     font-weight: bold;
     /* Texto en negrita */
 }
-  
+
 input,
 textarea {
     padding: 12px 20px;
@@ -371,7 +372,7 @@ textarea {
     font-size: 16px;
     /* Tamaño de la fuente */
 }
-  
+
 input[type="submit"] {
     background-color: #4caf50;
     /* Color de fondo */
@@ -386,7 +387,7 @@ input[type="submit"] {
     cursor: pointer;
     /* Tipo de cursor */
 }
-  
+
 input[type="submit"]:hover {
     background-color: #45a049;
     /* Color de fondo con cursor */
