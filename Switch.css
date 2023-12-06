@@ -486,6 +486,13 @@ footer .arriba {
         /* Área de espacio */
     }
 
+    #usuario .img-contenedor1,
+    #usuario .img-contenedor2 {
+        opacity: 0.7;
+        /* Transparencia de la imagen */
+    }
+    
+
     #sistema .lista-app,
     #usuario .lista-app {
         align-items: center;

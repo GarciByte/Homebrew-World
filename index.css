@@ -225,14 +225,21 @@ header nav a:hover {
     /* Área de espacio */
 }
 
-#homebrew .wiki-link {
+#homebrew a:link {
     color: royalblue;
     /* Color del texto */
+    text-decoration-line: underline;
+    /* Subrayado del enlace */
 }
 
 #homebrew a:hover {
     color: tomato;
     /* Color con el cursor encima */
+}
+
+#homebrew a:visited {
+    color: blueviolet;
+    /* Color con el enlace visitado */
 }
 
 .img-contenedor {
